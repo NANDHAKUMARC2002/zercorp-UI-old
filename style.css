@@ -1,0 +1,823 @@
+*{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+@media screen and (max-width:767px){
+    width:100px;
+}
+body{
+    font-family:sans-serif;
+}
+img{
+    width:260px;
+    margin-left:17px;
+    margin-top:11px; 
+}
+#dropdown{
+    display:inline-flex;
+    margin:-60px 0 0 940px;
+    float:right;
+    list-style-type:none;
+    width:550px;
+}
+#dropdown li {
+    list-style-type:none;
+    font-size:14.4px;
+}
+#dropdown li  a{
+    text-decoration:none;
+    color:black;
+}
+#products:hover{
+    background-color:#56aafe;
+    width:350px;
+    padding:9px;
+    margin:-10px 3px 0 1px;
+}
+#products a:hover{
+    color:white;
+}
+#productlist{
+    list-style-type:none;
+    display:none;
+}
+#dropdown li:nth-child(1):hover #productlist{
+    display:block;   
+}
+#serviceslist{
+    display:none;
+    list-style-type: none;
+}
+#dropdown li:nth-child(2):hover #serviceslist{
+    display:block;
+
+}
+#services:hover{
+    background-color:#56aafe;
+    width:350px;
+    padding:9px;
+    margin:-10px 3px 0 1px;
+}
+#services a:hover{
+    color:white;
+}
+#pricing:hover{
+    background-color:#56aafe;
+    width:350px;
+    padding:9px;
+    margin:-10px 3px 0 1px;
+}
+#pricing a:hover{
+    color:white;
+}
+#aboutus:hover{
+    background-color:#56aafe;
+    width:400px;
+    padding:8px;
+    margin:-10px 3px 0 1px;
+}
+#aboutus a:hover{
+    color:white;
+}
+#career:hover{
+    background-color:#56aafe;
+    width:320px;
+    padding:9px;
+    margin:-10px 3px 0 1px;
+}
+#career a:hover{
+    color:white;
+}
+#support:hover{
+    background-color:#56aafe;
+    width:320px;
+    padding:8px;
+    margin:-10px 3px 0 1px;
+}
+#support a:hover{
+    color:white;
+}
+#signin a{
+    color:white;
+    width:350px;
+    margin:-9px 0 0 5px;
+    text-align: center;
+    padding:9px;
+    background-color:#56aafe;
+    position:relative;
+    box-shadow:6px 4px 4px 0px rgba(0, 0, 0, 0.333);
+}
+#image1{
+    width:45%;
+    height:30%;
+    margin-left:50%;
+    margin-top:50px;
+}
+#image1side{
+    background-color:rgb(221, 221, 221);
+    padding-left:50px;
+    margin-left:73px;
+    margin-top:-21%;
+    width:40%;
+    border-radius:15px;
+    z-index:2px;
+}
+#image1side h1{
+    color:#258df6;
+    padding-top:15px;
+    margin-left:-38px;
+}
+#image1side p{
+    padding:10px 0 30px 0;
+    font-size:17.2px;
+    text-align:justify;
+    margin-left:-35px;
+    line-height:25px;
+}
+#Softwareforallyourneeds{
+    width:30%;
+    margin:18% 0 0 4.8%;
+    border:3px rgba(0, 0, 0, 0.584) dashed;
+    border-radius:13px;
+    padding:10px 0 9px 18px;
+}
+#software{
+    color:#258df6;
+}
+#cloud img{
+    margin:-173px 0 0 81%;
+    width:95px;
+    position:absolute;
+}
+#mobile img{
+    width:75px;
+    margin:-173px 0 0 63%;
+    position:absolute;
+}
+#desktop img{
+    width:75px;
+    margin:-173px 0 0 46.5%;
+    position:absolute;
+}
+#clouds{
+    margin:-93px 0 0 1226px;
+    position:absolute;
+}
+#mobiles{
+    margin:-90px 0 0 936px;
+    position:absolute;
+}
+#desktops{
+    margin:-90px 0 0 680px;
+    position:absolute;
+}
+#Whatcanwedo{
+    margin:-14% 0 0 38%;
+    background-color:rgb(240, 243, 244);
+    width:51%;
+    padding:35px 10px 195px 40px ;
+    border-radius:15px;
+    position:relative;
+}
+#Whatcanwedo h2{
+    padding-bottom:10px;
+}
+#image2{
+    width:30%;
+    height:25%;
+    margin:35.8px 0 0 13%;
+}
+.digitalise{
+    margin:-23.2% 10% 0 50%;
+    width:43.2%;
+    padding-left:15px;
+    text-align:justify;
+}
+.digitalise h1{
+    padding-bottom:7px;
+}
+
+#business{
+    padding-bottom:10px;
+    color:black;
+    font-size:22px;
+}
+/*-------------------------------------------------------Our Products-------------------------------------/////////////////*/
+.ourproducts{
+    margin:15% 0 0 44%;
+}
+#outerdiamond{
+    width:21px;
+    height:21px;
+    margin:13px 0 0 50%;
+    transform:rotate(45deg);
+    border:1px solid rgba(0, 0, 9, 0.436);
+}
+#innerdiamond{
+    width:13px;
+    height:13px;
+    margin:-19px 0 0 764px;
+    transform:rotate(45deg);
+    border:1px solid rgba(0, 0, 9, 0.836);
+    position:absolute;
+}
+#leftline{
+    margin:-11px 0 0 40.5%;
+    width:7.5%;
+    border:11px solid rgba(26, 26, 26, 0.767);
+    background-color: #00000073;
+}
+#rightline{
+    margin:-3.8px 0 0 53.5%;
+    width:7.5%;
+    border:1px solid rgba(26, 26, 26, 0.767);
+    background-color: #00000073;
+}
+/*-------------------------------------------------------------CRM----------------------------------------------------------*/
+#crm{
+    margin:-3px 0 0 70px;
+    width:420px;
+    height:313px;
+    border-radius:15px;
+    border:1.5px solid rgba(10, 1, 1, 0.493);
+}
+#crmp{
+    padding:150px 12.5px 0 12.5px;
+    justify-content:justify;
+    text-align:justify;
+    font-size:15.2px;
+    margin:-20% 0 0 4.6%;
+    position:relative;
+    width:400px;
+}
+#crm img{
+    width:37px;
+    margin:30px 0 0 190px;
+}
+#crm p{
+    border-radius:80px;
+    background-color:#fa7430;
+    width:80px;
+    height:80px;
+    margin:-60px 0 0 168px;
+    box-shadow:2px 2px 2px 2px rgb(188, 187, 187);
+}
+#crm h2{
+    border-radius:78px;
+    border:2px solid rgb(0, 14, 14);
+    width:78px;
+    height:78px;
+    margin:-81px 0 0 162px;
+}
+#crm h4{
+    color:black;
+    margin:20px 0 0 187px; 
+    font-size:15px;
+}
+/*--------------------------------------------------------Teams------------------------------------------------------------------*/
+#teams{
+    margin:-285px 0 0 535px;
+    width:420px;
+    height:313px;
+    border-radius:15px;
+    border:1.5px solid rgba(10, 1, 1, 0.493);
+    float:inherit;
+}
+#teamsp{
+    padding:150px 12.5px 0 476px;
+    justify-content:justify;
+    text-align:justify;
+    font-size:15.2px;
+    margin:-20% 0 0 4.6%;
+    position:relative;
+    width:400px;
+}
+#teams img{
+    width:37px;
+    margin:30px 0 0 190px;
+}
+#teams p{
+    border-radius:80px;
+    background-color:#547ef3;
+    width:80px;
+    height:80px;
+    margin:-60px 0 0 168px;
+    box-shadow:2px 2px 2px 2px rgb(188, 187, 187);
+}
+#teams h2{
+    border-radius:78px;
+    border:2px solid rgb(0, 14, 14);
+    width:78px;
+    height:78px;
+    margin:-81px 0 0 162px;
+}
+#teams h4{
+    color:black;
+    margin:20px 0 0 183px; 
+    font-size:15px;
+}
+/*------------------------------------------------------------Smart Ledger---------------------------------------------------------*/
+#smart{
+    margin:-233px 0 0 1000px;
+    width:420px;
+    height:313px;
+    border-radius:15px;
+    border:1.5px solid rgba(10, 1, 1, 0.493);
+}
+#smartp{
+    padding:150px 12.5px 0 942px;
+    justify-content:justify;
+    text-align:justify;
+    font-size:15.2px;
+    margin:-20% 0 0 4.6%;
+    position:relative;
+    width:400px;
+}
+#smart img{
+    width:37px;
+    margin:30px 0 0 190px;
+}
+#smart p{
+    border-radius:80px;
+    background-color:#c42020;
+    width:80px;
+    height:80px;
+    margin:-60px 0 0 168px;
+    box-shadow:2px 2px 2px 2px rgb(188, 187, 187);
+}
+#smart h2{
+    border-radius:78px;
+    border:2px solid rgb(0, 14, 14);
+    width:78px;
+    height:78px;
+    margin:-81px 0 0 162px;
+}
+#smart h4{
+    color:black;
+    margin:20px 0 0 158px; 
+    font-size:15px;
+}
+/*----------------------------------------------------------------Emporium---------------------------------------------------*/
+#emporium{
+    margin:-232px 0 0 1470px;
+    width:420px;
+    height:313px;
+    border-radius:15px;
+    border:1.5px solid rgba(10, 1, 1, 0.493);
+}
+#emporiump{
+    padding:150px 12.5px 0 1413px;
+    justify-content:justify;
+    text-align:justify;
+    font-size:15.2px;
+    margin:-20% 0 0 4.6%;
+    position:relative;
+    width:400px;
+}
+#emporium img{
+    width:37px;
+    margin:30px 0 0 190px;
+}
+#emporium p{
+    border-radius:80px;
+    background-color:#57ac86;
+    width:80px;
+    height:80px;
+    margin:-60px 0 0 168px;
+    box-shadow:2px 2px 2px 2px rgb(188, 187, 187);
+}
+#emporium h2{
+    border-radius:78px;
+    border:2px solid rgb(0, 14, 14);
+    width:78px;
+    height:78px;
+    margin:-81px 0 0 162px;
+}
+#emporium h4{
+    color:black;
+    margin:20px 0 0 168px; 
+    font-size:15px;
+}
+/*---------------------------------------------------------Report Generation-----------------------------------------------------*/
+#report{
+    margin:-234px 0 0 1940px;
+    width:420px;
+    height:313px;
+    border-radius:15px;
+    border:1.5px solid rgba(10, 1, 1, 0.493);
+}
+#reportp{
+    padding:150px 12.5px 0 1881px;
+    justify-content:justify;
+    text-align:justify;
+    font-size:15.2px;
+    margin:-20% 0 0 4.6%;
+    position:relative;
+    width:400px;
+}
+#report img{
+    width:37px;
+    margin:30px 0 0 190px;
+}
+#report p{
+    border-radius:80px;
+    background-color:#6602c4;
+    width:80px;
+    height:80px;
+    margin:-60px 0 0 168px;
+    box-shadow:2px 2px 2px 2px rgb(188, 187, 187);
+}
+#report h2{
+    border-radius:78px;
+    border:2px solid rgb(0, 14, 14);
+    width:78px;
+    height:78px;
+    margin:-81px 0 0 162px;
+}
+#report h4{
+    color:black;
+    margin:20px 0 0 168px; 
+    font-size:15px;
+}
+/*----------------------------------------Our Services---------------------------------////////////////////////*/
+.ourservices{
+    margin:7% 0 0 44%;
+}
+#outerdiamond{
+    width:21px;
+    height:21px;
+    margin:13px 0 0 50%;
+    transform:rotate(45deg);
+    border:1px solid rgba(0, 0, 9, 0.436);
+}
+#innerdiamond{
+    width:13px;
+    height:13px;
+    margin:-19px 0 0 764px;
+    transform:rotate(45deg);
+    border:1px solid rgba(0, 0, 9, 0.836);
+    position:absolute;
+}
+#leftline{
+    margin:-11px 0 0 40.5%;
+    width:7.5%;
+    border:1px solid rgba(26, 26, 26, 0.767);
+    background-color: #00000073;
+}
+#rightline{
+    margin:-3.8px 0 0 53.5%;
+    width:7.5%;
+    border:1px solid rgba(26, 26, 26, 0.767);
+    background-color: #00000073;
+}
+/*-----------------------------------------------------IOT---------------------------------------*/
+#iot{
+    margin:54px 0 0 555px;
+    width:423px;
+    height:244px;
+    border-radius:15px;
+    border:1.5px solid rgba(10, 1, 1, 0.493);
+    background-color:#ef8a25;
+}
+#iotp{
+    margin:-16.9% 0 0 -86.7%;
+    padding:150px 0 0 1881px;
+    justify-content:justify;
+    text-align:justify;
+    font-size:15.2px;
+    position:relative;
+    width:400px;
+}
+#iot img{
+    width:37px;
+    margin:38px 0 0 188px;
+}
+#iot h2{
+    border-radius:78px;
+    border:2px solid rgb(255, 255, 255);
+    width:78px;
+    height:78px;
+    margin:-66px 0 0 165px;
+}
+#iot h4{
+    color:black;
+    margin:20px 0 0 88px; 
+    font-size:15px;
+}
+#iot h3{
+    border:1px solid black;
+    width:423px;
+    height:244px;
+    border-radius:15px;
+    margin:-142px 0 0 -10px;
+}
+#iotquotes1{
+    font-size:45px;
+    margin:-285px 0 0 588px;
+}
+#iotquotes1 h6{
+    border-radius: 58px;
+    background-color: white;
+    width:58px;
+    height:58px;
+    margin:-52px 0 0 -10px;
+}
+#iotquotes2{
+    font-size:45px;
+    margin:196px 0 0 888px;
+}
+#iotquotes2 h6{
+    border-radius: 58px;
+    background-color: rgb(255, 255, 255);
+    width:58px;
+    height:58px;
+    margin:-58px 0 0 -10px;
+}
+/*-----------------------------------------Custom Application Development----------------------------*/
+#cad{
+    margin:74px 0 0 555px;
+    width:423px;
+    height:244px;
+    border-radius:15px;
+    border:1.5px solid rgba(10, 1, 1, 0.493);
+    background-color:#b71919;
+}
+#cadp{
+    margin:-16.9% 0 0 -86.7%;
+    padding:150px 0 0 1881px;
+    justify-content:justify;
+    text-align:justify;
+    font-size:15.2px;
+    position:relative;
+    width:400px;
+    color:white;
+}
+#cad img{
+    width:37px;
+    margin:38px 0 0 188px;
+}
+#cad h2{
+    border-radius:78px;
+    border:2px solid rgb(255, 255, 255);
+    width:78px;
+    height:78px;
+    margin:-66px 0 0 165px;
+}
+#cad h4{
+    color:white;
+    margin:20px 0 0 88px; 
+    font-size:15px;
+}
+#cad h3{
+    border:1px solid black;
+    width:423px;
+    height:244px;
+    border-radius:15px;
+    margin:-142px 0 0 -10px;
+}
+#cadquotes1{
+    font-size:45px;
+    margin:-285px 0 0 588px;
+}
+#cadquotes1 h6{
+    border-radius: 58px;
+    background-color: white;
+    width:58px;
+    height:58px;
+    margin:-52px 0 0 -10px;
+}
+#cadquotes2{
+    font-size:45px;
+    margin:196px 0 0 888px;
+}
+#cadquotes2 h6{
+    border-radius: 58px;
+    background-color: rgb(255, 255, 255);
+    width:58px;
+    height:58px;
+    margin:-58px 0 0 -10px;
+}
+/*-------------------------------------------------VR & AR Development-------------------------------------------*/
+#vrar{
+    margin:-374px 0 0 1055px;
+    width:423px;
+    height:244px;
+    border-radius:15px;
+    border:1.5px solid rgba(10, 1, 1, 0.493);
+    background-color:#1277db;
+}
+#vrarp{
+    margin:-18% 0 0 -53.7%;
+    padding:150px 0 0 1881px;
+    justify-content:justify;
+    text-align:justify;
+    font-size:15.2px;
+    position:relative;
+    width:400px;
+    color:black;
+}
+#vrar img{
+    width:37px;
+    margin:38px 0 0 188px;
+}
+#vrar h2{
+    border-radius:78px;
+    border:2px solid rgb(255, 255, 255);
+    width:78px;
+    height:78px;
+    margin:-66px 0 0 165px;
+}
+#vrar h4{
+    color:white;
+    margin:20px 0 0 88px; 
+    font-size:15px;
+}
+#vrar h3{
+    border:1px solid black;
+    width:423px;
+    height:244px;
+    border-radius:15px;
+    margin:-142px 0 0 -10px;
+}
+#vrarquotes1{
+    font-size:45px;
+    margin:-285px 0 0 1088px;
+}
+#vrarquotes1 h6{
+    border-radius: 58px;
+    background-color: white;
+    width:58px;
+    height:58px;
+    margin:-52px 0 0 -10px;
+}
+#vrarquotes2{
+    font-size:45px;
+    margin:196px 0 0 1391px;
+}
+#vrarquotes2 h6{
+    border-radius: 58px;
+    background-color: rgb(255, 255, 255);
+    width:58px;
+    height:58px;
+    margin:-58px 0 0 -10px;
+}
+#ourservicesleft{
+    text-align: justify;
+    width:430px;
+    font-size:15px;
+    margin:-120px 0 0 100px;
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
+#lastimage{
+    width:640px;
+    margin:300px 0 0 70px;
+}
+#lastimageright{
+    margin:-335px 0 0 0;
+}
+#lastimageright form{
+    width:500px;
+    margin:0 0 0 850px;
+    font-size:40px;
+}
+#lastimageright hr{
+    width:550px;
+    margin:0px 0 0 838px;
+    color:black;
+    border:0.1px solid rgba(0, 0, 0, 0.626);
+    border-collapse: collapse;
+    
+}
+#lastimageright input{
+    border:none;
+    font-size:16px;
+}
+#lastimageright h1{
+    margin:0 0 0 826px;
+    padding-bottom:10px;
+}
+#lastimageright p{
+    margin:0 0 0 826px;
+    color:rgba(0, 0, 0, 0.694);
+    font-size:15.4px;
+}
+#button1 button{
+    padding:7.5px;
+    width:70px;
+    border-radius:5px;
+    margin:16px 0 0 818px;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.858);
+    font-size:15.8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*------------------------------------------------------------Footer----------------------------------------------------*/
+#footerlefts ul li a{
+    margin-left:595px;
+    padding:-10px 0 0 50px;
+    margin-top:130px;
+    text-decoration:none;
+    color:white;
+    font-size:15.5px;
+}
+#footerlogo img{
+    margin:75px 0 0 177px;
+}
+.footerright {
+    margin:-130px 0 0 832px;
+    text-align: justify;
+    color:white;
+    font-size:13px;
+}
+.email{
+    margin:3px 0 0 0;
+}
+.email p{
+    margin:-16.5px 0 0 20px;
+    font-size:15px;
+    color:white;
+}
+.email i{
+    margin:20px 0 0 0;
+}
+.phone{
+    margin:-1px 0 0 0;
+}
+.phone p{
+    margin:-15.5px 0 0 23px;
+}
+.phone i{
+    margin:28px 0 0 0;
+}
+.address p{
+    font-size:13.3px;
+    margin:-25px 0 0 20px;
+}
+.address i{
+    color:rgb(251, 252, 250);
+}
+#all{
+    margin-top:-125px;
+    background-color:#1e0e2d;
+    height:120px;
+    padding-top:30px;
+    padding-bottom:50px;
+}
+#proposal{
+    text-decoration: none;
+    border:1px solid rgb(19, 0, 0);
+    background-color:white;
+    margin:10px 0 0 425px;
+    width:95px;
+    padding:6.9px;
+    border-radius:3px;
+    position: relative;
+}
+#proposal a{
+    color:#000000dc; 
+    text-decoration:none;
+}
+
+#followus h6{
+    margin:-90px 0 0 444px;
+    color:rgb(255, 255, 255);
+    font-size:15px;
+}
+.social{
+    margin:-20px 0 0 0;
+}
+#facebook{
+    margin:-90px 0 0 440px;
+}
+#facebook a{
+  color:rgb(247, 248, 248);
+  font-size: 20px;
+}
+#instagram{
+    margin:-23px 0 0 470px;
+}
+#instagram a{
+  color:rgb(247, 248, 248);
+  font-size: 20px;
+}
+#linkedin{
+    margin:-23px 0 0 500px;
+    z-index:8px;
+}
+#linkedin a{
+    font-size: 20px;
+    color:white;
+}
+
+#footerline hr{
+    margin:-25px 0 0 -750px;
+    width:89%;
+    border-width:0.01px;
+}
+#allrights h5{
+    margin:125px 0 0 -190px;
+    color:rgb(255, 255, 255);
+    font-size:14px;
+    font-weight: 200;
+}
